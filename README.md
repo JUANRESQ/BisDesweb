@@ -8,4 +8,4 @@ routing + {
         name: "AboutMe",
         component: AboutMe,
        },
-      localhost:5173/
+      localhost:5173/AboutMe
