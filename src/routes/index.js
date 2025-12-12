@@ -2,6 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "../pages/home.vue";
 import Contact from "../pages/contact.vue";
+import jadwal from "../pages/jadwal.vue";
+import Tiket from "../pages/tiket.vue";
+import Pesan from "../pages/pesan.vue";
+import Login from "../pages/login.vue";
+import Register from "../pages/register.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -12,9 +17,34 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: "/kontak",
-      name: "kontak",
+      path: "/Jadwal",
+      name: "Jadwal",
+      component: jadwal,
+    },
+    {
+      path: "/tiket",
+      name: "Tiket",
+      component: Tiket,
+    },
+    {
+      path: "/Contact",
+      name: "Contact",
       component: Contact,
+    },
+    {
+      path: "/Pesan",
+      name: "pesan",
+      component: Pesan,
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: Login,
+    },
+    {
+      path: "/register",
+      name: "register",
+      component: Register,
     },
   ],
 });

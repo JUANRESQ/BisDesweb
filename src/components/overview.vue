@@ -1,25 +1,26 @@
-<script setup></script>
-
 <template>
-  <section id="overview" class="px-20 py-20">
-    <div class="text-center">
-      <h1 class="font-bold text-primary text-4xl mb-2">Tentang</h1>
-    </div>
-    <div class="flex gap-10 max-w-5xl mx-auto mt-8">
-      <div class="gambar">
-        <img src="/asus.jpg" alt="tentang" class="rounded-xl w-200" />
+  <section class="px-10 py-20 text-center">
+
+    <h2 class="text-3xl font-bold mb-14">KELEBIHAN KAMI</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div class="bg-blue-600 text-white p-8 rounded-lg shadow-md">
+        <h3 class="font-bold text-lg mb-2">Pemesanan mudah & terpercaya</h3>
+        <p>Kami hadir dengan reservasi tiket bus yang praktis dan aman.</p>
       </div>
-      <div class="max-w-xl">
-        <h2 class="text-primary font-bold text-2xl mb-3">TUF</h2>
-        <p class="mb-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus
-          tempore pariatur blanditiis esse eligendi voluptates quas, corporis
-          architecto ducimus id, minima in. Ratione tempora laboriosam et modi
-          sequi ipsa eveniet alias dolore dolores reiciendis illo sint quidem,
-          voluptate eaque aliquam laudantium quis beatae enim maxime suscipit
-          neque iusto repellendus maiores?
-        </p>
+
+      <div class="bg-blue-600 text-white p-8 rounded-lg shadow-md">
+        <h3 class="font-bold text-lg mb-2">Pembayaran online</h3>
+        <p>Reservasi menjadi fleksibel dengan berbagai metode pembayaran.</p>
       </div>
+
+      <div class="bg-blue-600 text-white p-8 rounded-lg shadow-md">
+        <h3 class="font-bold text-lg mb-2">Layanan pelanggan</h3>
+        <p>Kami selalu siap membantu kebutuhan perjalanan Anda.</p>
+      </div>
+
     </div>
+
   </section>
 </template>
