@@ -7,7 +7,8 @@
       <li><router-link to="/jadwal" class="hover:text-blue-500">Jadwal Bis</router-link></li>
       <li><router-link to="/tiket" class="hover:text-blue-500">Riwayat Pemesanan</router-link></li>
       <li><router-link to="/contact" class="hover:text-blue-500">Contact</router-link></li>
-    </ul>
+      <li><router-link to="/AboutMe" class="hover:text-blue-500">About</router-link></li>
+    </ul> 
 
     <div class="hidden md:flex gap-3 items-center">
       <template v-if="!user">
@@ -53,6 +54,7 @@
         <li><router-link @click="closeMenu" to="/jadwal">Jadwal Bis</router-link></li>
         <li><router-link @click="closeMenu" to="/tiket">Riwayat Pemesanan</router-link></li>
         <li><router-link @click="closeMenu" to="/contact">Contact</router-link></li>
+        <li><router-link @click="closeMenu" to="/AboutMe">About</router-link></li>
 
         <hr />
 

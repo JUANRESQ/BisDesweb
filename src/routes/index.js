@@ -7,6 +7,7 @@ import Tiket from "../pages/tiket.vue";
 import Pesan from "../pages/pesan.vue";
 import Login from "../pages/login.vue";
 import Register from "../pages/register.vue";
+import AboutMe from "../pages/AboutMe.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -45,6 +46,11 @@ const router = createRouter({
       path: "/register",
       name: "register",
       component: Register,
+    },
+    {
+      path: "/AboutMe",
+      name: "AboutMe",
+      component: AboutMe,
     },
   ],
 });
