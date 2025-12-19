@@ -20,16 +20,16 @@
 
     const SkillList = ref([
         {
-        Skill: "ngoding",
-        Deskripsi: "saya bisa ngoding kali",
+        Skill: "WEB DEVELOPER",
+        Deskripsi: "Vue.js",
         },
         {
-        Skill: "main ml",
-        Deskripsi: "jago main ml",
+        Skill: "WEB DEVELOPER",
+        Deskripsi: "REACT.JS",
         },
         {
-        Skill: "menggunakan komputer",
-        Deskripsi: "main komputer",
+        Skill: "WEB DEVELOPER",
+        Deskripsi: "TAILWIND CSS",
         }
     ])
     const selected = ref({});

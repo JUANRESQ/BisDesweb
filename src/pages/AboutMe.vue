@@ -3,19 +3,19 @@
 </script>
 
 <template>
-   <section class="flex flex-col md:flex-row justify-between items-center px-10 py-20 bg-gradient-to-r from-blue-200 to-blue-500">
-    
-    <div class="max-w-md ml-25">
-        <h1 class="">Juan Resq Sukardi</h1>
-      <h2 >11231033 - Informtika - ITK</h2>
-      <p class="text-gray-800 mb-5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quisquam eos quaerat aut laudantium dignissimos aperiam amet asperiores ipsum iste commodi, corporis reprehenderit porro odio earum vitae ipsa aliquid veniam.
-      </p>
+    <section class="bg-gray-100 pt-20">
+    <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div class="max-w-lg">
+                <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Juan Resq Sukardi</h1>
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">11231033-Informatika-ITK</h2>
+                <p class="mt-4 text-gray-600 text-lg"> saya adalah mahasiswa Informatika </p>
+            </div>
+            <!-- <div class="mt-12 md:mt-0 hidden md:block">
+                <img src="/public/foto.jpg" alt="About Us Image" class="object-cover rounded-lg shadow-md">
+            </div> -->
+        </div>
     </div>
-
-    <div class="mt-10 md:mt-0">
-        <img src="/Bus2.png" alt="Bus" />
-      </div>
-  </section>
+</section>
     <Skill />
 </template>
